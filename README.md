@@ -6,7 +6,7 @@
   There are _4 NN models_, _3 testing environments_, and _2 MedMNIST datasets_ used (breast and pneumonia).
   
 ## Study Methodology
-Description of neural network models built and testing environments
+Description of neural network models built and testing environments.
 
   ### Models:
   
@@ -22,7 +22,7 @@ Description of neural network models built and testing environments
   - Train and test set augmentation (random shifts, rotations)
         
 ## Data
-Overview of MedMNIST datasets
+Overview of MedMNIST datasets.
 
   ### Breast MedMNIST:
   
@@ -39,10 +39,16 @@ Overview of MedMNIST datasets
   - Access to data: https://zenodo.org/record/6496656#.Ym7bZ-jMKHs
 
 ## Results
-More detailed results shown in attached presentation
+Overview of model results. More detailed results and images can be in attached file.
 
+  ### Breast:
   - _Highest train acc_: 90.66 from CNN with dropout and test only augmentation
   - _Highest validation acc_: 80.77 from Baseline CNN and test only augmentation
   - _Highest test acc_: 79.49 from Baseline CNN and test only augmentation
+
+  ### Pneunomia:
+  - _Highest train acc_: 97.77 from ResNet and train/test augmentation
+  - _Highest validation acc_: 96.76 from CNN with dropout and no augmentation
+  - _Highest test acc_: 86.38 from Baseline CNN and train/test augmentation
 
 
