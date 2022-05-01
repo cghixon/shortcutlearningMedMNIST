@@ -1,6 +1,7 @@
 # Exploring Shortcut Learning with MedMNIST data
   **Shortcut Learning** (Geirhos et al, 2020) is found when data performs well with IID data but _not OOD data_. <br />
-  Shortcuts are revealed when tested under slightly different circumstances.
+  Shortcuts are revealed when tested under slightly different circumstances. <br />
+  A more detailed explanation of shortcut learning is in file named Shortcute Learning in Deep Neural Networks.
   
   This project explores shortcut learning by comparing various NN models and testing environments using two data sets from MedMNIST. <br />
   There are _4 NN models_, _3 testing environments_, and _2 MedMNIST datasets_ used (breast and pneumonia).
